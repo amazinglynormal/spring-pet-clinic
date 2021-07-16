@@ -1,10 +1,13 @@
 package sb.petclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import sb.petclinic.model.Vet;
 import sb.petclinic.services.VetService;
 
 import java.util.Set;
 
+
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
