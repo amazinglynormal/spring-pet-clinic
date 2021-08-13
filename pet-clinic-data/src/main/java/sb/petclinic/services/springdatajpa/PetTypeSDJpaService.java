@@ -2,7 +2,6 @@ package sb.petclinic.services.springdatajpa;
 
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
-import sb.petclinic.model.Pet;
 import sb.petclinic.model.PetType;
 import sb.petclinic.repositories.PetTypeRepository;
 import sb.petclinic.services.PetTypeService;
